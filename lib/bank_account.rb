@@ -8,12 +8,12 @@ class BankAccount
     @status = "open"
   end
   
-  def deposit
+  def deposit(money)
     @balance += money
   end
   
   def display_balance
-    "Your available balance is $#{balance}."
+    "Your available balance is $#{@balance}."
   end
   
   def valid?
