@@ -10,4 +10,7 @@ class BankAccount
   
   def deposit
     @balance += money
+  end
+  
+  
 end
