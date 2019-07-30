@@ -16,5 +16,6 @@ class BankAccount
     "Your available balance is $#{balance}."
   end
   
-  
+  def valid?
+    
 end
